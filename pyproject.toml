@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "fasthook"
-version = "1.0.2"
+version = "2.0.0"
 description = "A simple local webhook receiver and relay tool"
 authors = [
     {name = "Jermy Pena", email = "NIL@NIL.NIL"}

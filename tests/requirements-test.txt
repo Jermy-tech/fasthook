@@ -1,0 +1,25 @@
+# Testing dependencies for fasthook
+
+# Core testing framework
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.0.0
+pytest-timeout>=2.1.0
+pytest-mock>=3.10.0
+
+# For testing FastAPI applications
+httpx>=0.24.0
+fastapi>=0.100.0
+uvicorn>=0.23.0
+
+# For CLI testing
+click>=8.0.0
+
+# Code quality
+black>=23.0.0
+flake8>=6.0.0
+isort>=5.12.0
+mypy>=1.0.0
+
+# Optional: for YAML mock specs
+PyYAML>=6.0
