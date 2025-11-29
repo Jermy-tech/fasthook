@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "fasthook"
-version = "1.0.1"
+version = "1.0.2"
 description = "A simple local webhook receiver and relay tool"
 authors = [
     {name = "Jermy Pena", email = "NIL@NIL.NIL"}
@@ -35,7 +35,7 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://github.com/Jermy-tech/fasthook"
-Repository = "https://github.com/Jermy-tech/fasthook/fasthook"
+Repository = "https://github.com/Jermy-tech/fasthook/"
 Issues = "https://github.com/Jermy-tech/fasthook/issues"
 
 [project.scripts]
