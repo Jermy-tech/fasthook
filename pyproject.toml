@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fasthook"
+version = "1.0.1"
+description = "A simple local webhook receiver and relay tool"
+authors = [
+    {name = "Jermy Pena", email = "NIL@NIL.NIL"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["webhook", "testing", "development", "http", "server"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Testing",
+    "Topic :: Internet :: WWW/HTTP :: HTTP Servers"
+]
+dependencies = [
+    "fastapi>=0.104.0",
+    "uvicorn[standard]>=0.24.0",
+    "click>=8.0.0",
+    "httpx>=0.25.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/Jermy-tech/fasthook"
+Repository = "https://github.com/Jermy-tech/fasthook/fasthook"
+Issues = "https://github.com/Jermy-tech/fasthook/issues"
+
+[project.scripts]
+fasthook = "fasthook.cli:main"
+
+[tool.setuptools]
+packages = ["fasthook"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+
+
