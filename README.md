@@ -2,6 +2,11 @@
 
 A dead-simple local webhook receiver for testing and development. Because sometimes you just need to see what's being sent to your endpoint.
 
+[![PyPI Version](https://img.shields.io/pypi/v/fasthook)](https://pypi.org/project/fasthook/)
+[![PyPI Downloads](https://img.shields.io/pypi/dm/fasthook)](https://pypi.org/project/fasthook/)
+[![License](https://img.shields.io/github/license/Jermy-tech/fasthook)](https://github.com/Jermy-tech/fasthook/blob/main/LICENSE)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-fasthook-blue?logo=github)](https://github.com/Jermy-tech/fasthook)
+
 ```bash
 pip install fasthook
 fasthook listen 3000
